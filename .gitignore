@@ -1,0 +1,7 @@
+/dist/build
+node_modules
+.vscode
+*-private.html
+.DS_Store
+
+gitlab-ui
