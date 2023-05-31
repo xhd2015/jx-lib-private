@@ -1,7 +1,5 @@
 import { useEffect, useRef, useState } from "react"
 
-
-
 // data=1, ref.current = undefined, capture data = 1
 // setData(2) => data = 2, ref.current = previous capture data = 1, capture data = 2
 
