@@ -1,0 +1,66 @@
+/* important: as sometimes body's overflow is default to hidden, making the website hard to expand */
+
+
+.child-space-5>* {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.child-margin-x-5>* {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.child-margin-x-1>* {
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.child-margin-x-5:first-child {
+    margin-left: 0px;
+}
+
+.child-margin-x-10>* {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.child-margin-x-10>*:first-child {
+    margin-left: 0px;
+}
+
+.margin-y-5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.child-margin-y-2>* {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.child-margin-y-2>*:first-child {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.child-margin-y-5>* {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.child-margin-y-5>*:first-child {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.child-margin-y-20>* {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.child-margin-y-20>*:first-child {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
