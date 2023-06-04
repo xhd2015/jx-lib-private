@@ -5,6 +5,7 @@ export interface IconProps {
     icon?: string | Function | any
     style?: CSSProperties
     className?: string
+    onClick?: (e: Event) => void
 }
 
 export function Icon(props: IconProps) {
