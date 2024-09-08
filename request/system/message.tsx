@@ -53,6 +53,9 @@ export function installDefaultErrHandler() {
         if (msg === 'ResizeObserver loop limit exceeded' && !err) {
             // can safely ignore this error: https://stackoverflow.com/questions/49384120/resizeobserver-loop-limit-exceeded
             return
+        } else if (typeof msg === 'string' && !err && msg.startsWith("ResizeObserver loop completed with")) {
+            // see https://github.com/xhd2015/lifelog-private/issues/94
+            return
         }
         if (msg === 'Script error.' && !err) {
             // this happens on iOS chrome & safari
